@@ -23,6 +23,12 @@ puts "Creating paintings..."
 # * TODO: create paintings! Remember, a painting belongs to a artist *
 # * and a museum.                                                    *
 # ********************************************************************
+Painting
+
+Painting.create(title: "poop emoji", price_in_us_dollars: 15, museum_id: moma.id, artist_id: rembrandt.id)
+Painting.create(title: "sad cowboy emoji", price_in_us_dollars: 56, museum_id: accademia.id, artist_id: dali.id)
+Painting.create(title: "eyes emoji", price_in_us_dollars: 44, museum_id: prado.id ,artist_id: khalo.id)
+Painting.create(title: "face with three hearts emoji", price_in_us_dollars: 1000, museum_id: louvre.id, artist_id: pollock.id)
 
 puts "Deleting your entire github"
 sleep 1
